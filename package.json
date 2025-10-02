@@ -1,0 +1,21 @@
+{
+  "name": "vr-play-test",
+  "version": "1.0.0",
+  "description": "Interactive 3D room explorer demo",
+  "main": "main.js",
+  "scripts": {
+    "bundle": "node scripts/build.js",
+    "build": "npm run bundle && gh-pages -d dist -b gh-pages -m \"Deploy build\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "three": "^0.162.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.20.2",
+    "gh-pages": "^6.0.0"
+  }
+}
