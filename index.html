@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Room Explorer</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="overlay">
+      <div class="panel">
+        <h1>3D Room Explorer</h1>
+        <p>
+          Click <strong>Start Exploring</strong>, then use your mouse to look around
+          and the arrow keys to move. Press <strong>E</strong> to pick up nearby objects
+          and click to throw them.
+        </p>
+        <button id="start">Start Exploring</button>
+      </div>
+    </div>
+    <div id="hud">
+      <span>Press E to pick up / drop · Click to throw</span>
+    </div>
+    <canvas id="scene"></canvas>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
